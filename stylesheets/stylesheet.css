@@ -368,12 +368,13 @@ Full-Width Styles
 
 
 .babouinscomments{
+    margin-top:10px;
     box-shadow:0px 0px 10px 0px lightgrey;
 }
 .babouinscomments>form>textarea{
     width:100%;
     max-width:100%;
-    
+    min-width:100%;
 }
 
 .babouinscommentscontainer{
