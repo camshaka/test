@@ -371,8 +371,8 @@ Full-Width Styles
     box-shadow:0px 0px 10px 0px lightgrey;
 }
 .babouinscomments>form>textarea{
-    background-color:white;
     width:100%;
+    max-width:100%;
     
 }
 
