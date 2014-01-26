@@ -830,20 +830,26 @@ article.comment {
     margin-top:10px;
     box-shadow:0px 0px 10px 0px lightgrey;
 }
+
+.babouinscomments>form{
+    padding:10px
+}
+
 .babouinscomments>form>textarea{
-    width:100%;
     max-width:100%;
     min-width:100%;
 }
 
 .babouinscommentscontainer{
-    overflow-y:scroll;
-    max-height:700px;
+    overflow-y:auto;
+    max-height:100px;
+    padding-top:10px;
 }
 
 .babouinscomment{
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 10px;
     border-top: 1px dotted lightgrey;
 }
 
